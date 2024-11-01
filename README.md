@@ -6,9 +6,9 @@ In this project, we are using fuzzing/test-case generation platform to examine t
 
 #### TEAM
 
-(QMUL/School of Electronic Engineering and Computer Science): Vasileios Klimis
-(KCL/Informatics Department): Avner Bensoussan, Karine Even-Mendoza, Sophie Fortz
-(KCL/Physics Department): Elena Chachkarova, Connor Lenihan
+- (QMUL/School of Electronic Engineering and Computer Science): Vasileios Klimis
+- (KCL/Informatics Department): Avner Bensoussan, Karine Even-Mendoza, Sophie Fortz
+- (KCL/Physics Department): Elena Chachkarova, Connor Lenihan
 
 ## Seeds Generation
 
