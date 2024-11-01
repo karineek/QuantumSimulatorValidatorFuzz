@@ -2,7 +2,7 @@
 
 This is a visible repository of the [QuantumSimulatorValidator](https://github.com/vili-1/QuantumSimulatorValidator), which is currently under development.
 
-In this project, we are using fuzzing/test-case generation platform to examine the performance, correctness and precision of quantum simulation via various Python platforms, and later compare these data against Qunatum hardware (with experiments being done on real quantum computing devices on the other hand) to test the correctness of various Python-based quantum simulators vs quantum hardware (NISQ).
+In this project, we are using fuzzing/test-case generation platform to examine the performance, correctness and precision of quantum simulation via various Python platforms (with many of the tests being checked classically, say X86 vs ARM or building Python systems using different C/C++ compilers), and later compare these data against Qunatum hardware (with experiments being done on real quantum computing devices on the other hand) to test the correctness of various Python-based quantum simulators vs quantum hardware (NISQ).
 
 
 ## Seeds Generation
