@@ -28,3 +28,13 @@ meas: 4/════════════════════════
 
 Result: {'0000': 58, '0010': 429, '0100': 61, '0111': 476}
 </pre>
+
+## Testing Simulators
+
+We consider the following systems:
+- qiskit
+- braket
+- cirq
+- tket
+
+Hardware specification: X86, ARM.
