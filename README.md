@@ -83,12 +83,15 @@ q_2: ──H─────────────X─────────�
 
 ### Testing Simulators
 
-The following quantum simulators are considered for testing:
+The following quantum (higher-level) simulators are considered for testing:
 
-- **Qiskit**
-- **Braket**
-- **Cirq**
+- **Qiskit** (IBM)
+- **Braket** (AWS)
+- **Cirq** (Google)
 - **Tket**
+
+- Other related frameworks: OpenQASM (low-level).
+ 
 
 ### Hardware Specifications
 
