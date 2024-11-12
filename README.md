@@ -90,7 +90,7 @@ The following quantum (higher-level) simulators are considered for testing:
 - **Cirq** (Google)
 - **Tket**
 
-- Other related frameworks: OpenQASM (low-level).
+Note: Other related frameworks: OpenQASM (low-level).
  
 
 ### Hardware Specifications
