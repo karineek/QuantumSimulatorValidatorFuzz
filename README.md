@@ -2,6 +2,46 @@
 
 This repository is a public version of the [QuantumSimulatorValidator](https://github.com/vili-1/QuantumSimulatorValidator) project, which is actively under development.
 
+
+### Publications
+
+Klimis, V., Bensoussan, A., Chachkarova, E., Even-Mendoza, K., Fortz, S., & Lenihan, C. (Accepted/In press). Shaking Up Quantum Simulators with Fuzzing and Rigour. In ACM SIGPLAN International Conference on Object-Oriented Programming Systems, Languages, and Applications (OOPSLA): OOPSLA 2025 Article 322 https://doi.org/10.1145/3763100
+```
+@inbook{OOPSLA:FuzzQ:2025,
+   title = "Shaking Up Quantum Simulators with Fuzzing and Rigour",
+   abstract = "Quantum computing platforms rely on simulators for modelling circuit behaviour prior to hardware execution, where inconsistencies can lead to costly errors. While existing formal validation methods typically target specific compiler components to manage state explosion, they often miss critical bugs. Meanwhile, conventional testing lacks systematic exploration of corner cases and realistic execution scenarios, resulting in both false positives and negatives.We present FuzzQ, a novel framework that bridges this gap by combining formal methods with structured test generation and fuzzing for quantum simulators. Our approach employs differential benchmarking complemented by mutation testing and invariant checking. At its core, FuzzQ utilises our Alloy-based formal model of QASM 3.0, which encodes the semantics of quantum circuits to enable automated analysis and to generate structurally diverse, constraint-guided quantum circuits with guaranteed properties. We introduce several test oracles to assess both Alloy{\textquoteright}s modelling of QASM 3.0 and simulator correctness, including invariant-based checks, statistical distribution tests, and a novel cross-simulator unitary consistency check that verifies functional equivalence modulo global phase, revealing discrepancies that standard statevector comparisons fail to detect in cross-platform differential testing.We evaluate FuzzQ on both Qiskit and Cirq, demonstrating its platform-agnostic effectiveness. By executing over 800,000 quantum circuits to completion, we assess throughput, code and circuit coverage, and simulator performance metrics, including sensitivity, correctness, and memory overhead. Our analysis revealed eight simulator bugs, six previously undocumented. We also outline a path for extending the framework to support mixed-state simulations under realistic noise models.",
+   keywords = "Quantum Computing, Alloy, Verification/Validation,, est Case Generation, Fuzzing",
+   author = "Vasileios Klimis and Avner Bensoussan and Elena Chachkarova and Karine Even-Mendoza and Sophie Fortz and Connor Lenihan",
+   note = "After the first author, the rest of the authors are listed in alphabetical order.",
+   year = "2025",
+   month = aug,
+   day = "13",
+   doi = "10.1145/3763100",
+   language = "English",
+   booktitle = "ACM SIGPLAN International Conference on Object-Oriented Programming Systems, Languages, and Applications (OOPSLA)",
+}
+```
+
+Klimis, V., Bensoussan, A., CHACHKAROVA, E., Even Mendoza, K., Fortz, S., & Lenihan, C. (2025). FuzzQ Artifact: Shaking Up Quantum Simulators with Fuzzing and Rigour [Data set]. Zenodo. https://doi.org/10.5281/zenodo.16918102
+```
+@dataset{klimis_2025_16918102,
+  author       = {Klimis, Vasileios and
+                  Bensoussan, Avner and
+                  CHACHKAROVA, ELENA and
+                  Even Mendoza, Karine and
+                  Fortz, Sophie and
+                  Lenihan, Connor},
+  title        = {FuzzQ Artifact: Shaking Up Quantum Simulators with
+                   Fuzzing and Rigour
+                  },
+  month        = aug,
+  year         = 2025,
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.16918102},
+  url          = {https://doi.org/10.5281/zenodo.16918102},
+}
+```
+
 ### Project Overview
 
 This project aims to evaluate the performance, correctness, and precision of quantum simulators implemented on various Python-based platforms. The validation involves:
