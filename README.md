@@ -1,4 +1,4 @@
-# QuantumSimulatorValidator
+# FuzzQ: Quantum Simulator Validator
 
 This repository is a public version of the [QuantumSimulatorValidator](https://github.com/vili-1/QuantumSimulatorValidator) project, which is actively under development.
 
