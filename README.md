@@ -3,6 +3,9 @@
 This repository is a public version of the [QuantumSimulatorValidator](https://github.com/vili-1/QuantumSimulatorValidator) project, which is actively under development.
 
 
+**Data and code: [https://zenodo.org/records/16918102](https://zenodo.org/records/16918102)**
+
+
 ### Publications
 
 Klimis, V., Bensoussan, A., Chachkarova, E., Even-Mendoza, K., Fortz, S., & Lenihan, C. (Accepted/In press). Shaking Up Quantum Simulators with Fuzzing and Rigour. In ACM SIGPLAN International Conference on Object-Oriented Programming Systems, Languages, and Applications (OOPSLA): OOPSLA 2025 Article 322 https://doi.org/10.1145/3763100
